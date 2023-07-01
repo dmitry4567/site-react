@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import book_img from '../../assets/book.png';
 import img_card_1 from '../../assets/b1.png';
 import img_card_2 from '../../assets/b2.png';
+import qr from '../../assets/qr.png';
+import author from '../../assets/author.png';
 
 import styles from './Main.module.css';
 
@@ -71,21 +73,67 @@ class Main extends Component {
               </div>
             </div>
             <div className={styles.book_card}>
-            <img src={img_card_2} className={styles.img_card} alt="img-card" />
-                <div className={styles.col_book_info}>
-                  <h2>The Dark Light</h2>
-                  <h3>$ 86.11 USD
-                  </h3>
-                  <h4>As the book contains theoretical content as well as solved questions.</h4>
-                  <div className={styles.type_book}>
-                    <div className={styles.circle}></div>
-                    <p>Printed Book</p>
-                  </div>
-                  <div className={styles.btn3}>Order now</div>
+              <img src={img_card_2} className={styles.img_card} alt="img-card" />
+              <div className={styles.col_book_info}>
+                <h2>The Dark Light</h2>
+                <h3>$ 86.11 USD
+                </h3>
+                <h4>As the book contains theoretical content as well as solved questions.</h4>
+                <div className={styles.type_book}>
+                  <div className={styles.circle}></div>
+                  <p>Printed Book</p>
                 </div>
+                <div className={styles.btn3}>Order now</div>
+              </div>
             </div>
           </div>
         </div>
+        <div className={styles.about_author}>
+          <div className={styles.image_author}>
+          <img src={author} className={styles.image} alt="author" />
+              <div className={styles.img_border}></div>
+          </div>
+          <div className={styles.about_author_info}>
+            <h1>About the Author</h1>
+            <div className={styles.line_about_author}></div>
+            <h2>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with
+              readers, where we discover new writers, where children get hooked on the thrill of reading that can last
+              a lifetime.</h2>
+            <div className={styles.about_row}>
+              <div className={styles.about_card}>
+                <div className={styles.about_card_info}>
+                  <h3>02</h3>
+                  <h4>Book Published</h4>
+                </div>
+              </div>
+              <div className={styles.vert_line}></div>
+              <div className={styles.about_card}>
+                <div className={styles.about_card_info}>
+                  <h3>4.5</h3>
+                  <h4>User Reviews</h4>
+                </div>
+              </div>
+              <div className={styles.vert_line}></div>
+              <div className={styles.about_card}>
+                <div className={styles.about_card_info}>
+                  <h3>04</h3>
+                  <h4>Best Seller Awards</h4>
+                </div>
+              </div>
+            </div>
+            <div className={styles.box}>
+              <div className={styles.about_box}>
+              <img src={qr} className={styles.qr} alt="qr" />
+                  <div className={styles.about_box_info}>
+                    <h5>John Abraham , Ph.d</h5>
+                    <h6>Mail: johnabraham@gmail.com</h6>
+                    <h6>Phone: (+2) 123 545 9000</h6>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </>
     );
   }
