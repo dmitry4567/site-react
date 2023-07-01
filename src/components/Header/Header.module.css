@@ -1,0 +1,136 @@
+header {
+    margin: 0px;
+    padding: 20px 70px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1B3764;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+}
+
+.img-menu {
+    color: wheat;
+    fill: white;
+}
+
+.navbarItems {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0px 47px;
+    color: #F6F8FC;
+    font-size: 17px;
+    font-family: Inter;
+    line-height: 25.5px;
+    letter-spacing: 0.17px;
+}
+
+.btn {
+    display: block;
+    color: #1B3764;
+    font-size: 19px;
+    font-family: Cardo;
+    line-height: 28.5px;
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 18px 52px;
+    background-color: #FFCA42;
+    margin-left: auto;
+}
+
+.burger_btn {
+    display: none;
+    border: none;
+    background: transparent;
+}
+
+.menu {
+    display: none;
+}
+
+.btn_close {
+    display: none;
+}
+
+@media (max-width: 1330px) {
+    .btn {
+        display: none;
+    }
+}
+
+@media (max-width: 841px) {
+    header {
+        height: 50px;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .burger_btn {
+        display: block;
+        position: absolute;
+        left: 20px;
+        z-index: 10;
+    }
+
+    .menu {
+        display: block;
+        width: 310px;
+        top: 0px;
+        position: absolute;
+        left: -350px;
+        background-color: white;
+        padding: 120px 20px 20px 20px;
+        transition: transform .5s;
+    }
+
+    .menu ul {
+        font-size: 24px;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .menu_open {
+        transform: translateX(100%);
+    }
+
+    .menu.close {
+        transform: translateX(0%);
+    }
+
+    .btn_open.close {
+        display: none;
+    }
+
+    .btn_close.open {
+        display: block;
+    }
+}
