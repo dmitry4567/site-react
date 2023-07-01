@@ -153,7 +153,7 @@
     padding-top: 126px;
 }
 
-.line-author {
+.line_author {
     width: 50px;
     height: 0px;
     border-bottom: 3px solid rgb(212, 143, 13);
@@ -168,17 +168,17 @@
     justify-content: space-between;
 }
 
-.book-card {
+.book_card {
     display: flex;
     padding-right: 20px;
     align-items: center;
 }
 
-.col-book-info {
+.col_book_info {
     padding-left: 30px;
 }
 
-.col-book-info h2 {
+.col_book_info h2 {
     color: #1B3764;
     font-size: 32px;
     line-height: 38.4px;
@@ -186,7 +186,7 @@
     background-color: white;
 }
 
-.col-book-info h3 {
+.col_book_info h3 {
     color: #FFCA42;
     font-size: 21px;
     line-height: 33px;
@@ -194,7 +194,7 @@
     margin-top: 7px;
 }
 
-.col-book-info h4 {
+.col_book_info h4 {
     width: 284px;
     color: #969AA0;
     font-size: 19px;
@@ -203,12 +203,12 @@
     margin-top: 17px;
 }
 
-.type-book {
+.type_book {
     display: flex;
     margin-top: 13px;
 }
 
-.type-book p {
+.type_book p {
     color: #1B3764;
     font-size: 24px;
     font-family: Cardo;
@@ -230,7 +230,7 @@
     margin-right: 109px;
 }
 
-.about-author {
+.about_author {
     width: 100%;
     /* height: 960px; */
     padding-bottom: 160px;
@@ -241,16 +241,16 @@
     justify-content: space-around;
 }
 
-.image-author {
+.image_author {
     position: relative;
     z-index: 1;
 }
 
-.image-author img {
+.image_author img {
     z-index: 10;
 }
 
-.img-border {
+.img_border {
     top: 40;
     left: 40;
     position: absolute;
@@ -260,21 +260,21 @@
     z-index: -10;
 }
 
-.about-author-info {
+.about_author_info {
     margin-left: 150px;
     margin-top: 56px;
     margin-right: 40px;
     width: 605px;
 }
 
-.about-author-info h1 {
+.about_author_info h1 {
     color: #1B3764;
     font-size: 42px;
     line-height: 50.4px;
     text-transform: capitalize;
 }
 
-.line-about-author {
+.line_about_author {
     width: 50px;
     height: 0px;
     border-bottom: 3px solid #FFCA42;
@@ -282,7 +282,7 @@
     margin-top: 23px;
 }
 
-.about-author-info h2 {
+.about_author_info h2 {
     color: #969AA0;
     font-size: 19px;
     line-height: 34.2px;
@@ -290,34 +290,34 @@
     /* width: 559px; */
 }
 
-.about-row {
+.about_row {
     display: flex;
     margin-top: 34px;
     justify-content: space-between;
 }
 
-.about-card {
+.about_card {
     margin-left: 12px;
 }
 
-.about-card h3 {
+.about_card h3 {
     color: #1B3764;
     font-size: 54px;
     line-height: 77px;
 }
 
-.about-card h4 {
+.about_card h4 {
     color: #969AA0;
     font-size: 17px;
     line-height: 21.6px;
 }
 
-.vert-line {
+.vert_line {
     border-left: 1px solid #FFCA42;
     height: 98;
 }
 
-.about-box {
+.about_box {
     margin-top: 55px;
     padding-top: 15px;
     padding-left: 20px;
@@ -334,18 +334,18 @@
     height: 130px;
 }
 
-.about-box-info {
+.about_box_info {
     margin-left: 40px;
 }
 
-.about-box-info h5 {
+.about_box_info h5 {
     color: #FFCA42;
     font-size: 22px;
     line-height: 26.4px;
     margin-top: 18px;
 }
 
-.about-box-info h6 {
+.about_box_info h6 {
     color: #B4C7E7;
     font-size: 18px;
     line-height: 28.5px;
@@ -360,7 +360,7 @@
     align-items: center;
 }
 
-.line-compaines {
+.line_compaines {
     width: 50px;
     height: 0px;
     border-bottom: 3px solid #FFCA42;
@@ -377,19 +377,19 @@
     text-transform: capitalize;
 }
 
-.row-companies {
+.row_companies {
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.compaines-card {
+.compaines_card {
     width: 313;
     text-align: center;
 }
 
-.compaines-card h2 {
+.compaines_card h2 {
     margin-top: 19px;
     color: #1B3764;
     text-align: center;
@@ -397,7 +397,7 @@
     line-height: 28.8px;
 }
 
-.compaines-card h3 {
+.compaines_card h3 {
     margin-top: 19px;
     color: #969AA0;
     text-align: center;
@@ -427,40 +427,40 @@
         /* overflow-x: auto; */
     }
 
-    .book-card {
+    .book_card {
         /* margin-left: 40px; */
         margin-bottom: 20px;
     }
 
-    .about-author {
+    .about_author {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-left: 0;
     }
 
-    .about-author-info {
+    .about_author_info {
         text-align: center;
         margin: 0;
         margin-top: 40px;
     }
 
-    .about-row {
+    .about_row {
         margin-left: 30;
         margin-right: 30;
         text-align: start;
     }
 
-    .image-author {
+    .image_author {
         text-align: center;
         width: 100%;
     }
 
-    .img-border {
+    .img_border {
         display: none;
     }
 
-    .line-about-author {
+    .line_about_author {
         width: 0px;
     }
 
@@ -469,48 +469,48 @@
         justify-content: center;
     }
 
-    .compaines-img {
+    .compaines_img {
         width: 50%;
     }
 
-    .compaines-card {
+    .compaines_card {
         margin-right: 20px;
         margin-left: 20px;
     }
 
-    .compaines-card h2 {
+    .compaines_card h2 {
         font-size: 16px;
     }
 
-    .row-companies {
+    .row_companies {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
     }
 
-    .compaines-card {
+    .compaines_card {
         margin-bottom: 60px;
     }
 
 }
 
 @media (max-width: 767px) {
-    .row-companies {
+    .row_companies {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .compaines-card {
+    .compaines_card {
         margin-top: 40px;
     }
 
-    .img-card {
+    .img_card {
         width: 200px;
     }
 
-    .book-card {
+    .book_card {
         display: flex;
         flex-direction: column;
     }
@@ -519,7 +519,7 @@
         font-size: 30px;
     }
 
-    .col-book-info {
+    .col_book_info {
         margin-top: 20px;
     }
 
@@ -527,23 +527,23 @@
         margin-top: 0px;
     }
 
-    .book-card {
+    .book_card {
         margin-top: 60px;
     }
 
-    .col-book-info h2 {
+    .col_book_info h2 {
         font-size: 28px;
     }
 
-    .col-book-info h3 {
+    .col_book_info h3 {
         font-size: 18px;
     }
 
-    .col-book-info h4 {
+    .col_book_info h4 {
         font-size: 17px;
     }
 
-    .type-book p {
+    .type_book p {
         font-size: 20px;
     }
 
@@ -556,7 +556,7 @@
         font-size: 30px ;
     }
 
-    .compaines-card h3 {
+    .compaines_card h3 {
         padding-left: 20px;
         padding-right: 20px;
         font-size: 16px;
@@ -566,12 +566,12 @@
         width: 250px;
     }
 
-    .about-author-info {
+    .about_author_info {
         margin-top: 10;
         width: 295px;
     }
 
-    .about-author-info h1 {
+    .about_author_info h1 {
         font-size: 24px;
     }
 
@@ -581,11 +581,11 @@
         margin-right: 20px;
     }
 
-    .about-card h3 {
+    .about_card h3 {
         font-size: 40px;
     }
 
-    .about-card h4 {
+    .about_card h4 {
         font-size: 14px;
     }
 
@@ -598,7 +598,7 @@
 
     }
 
-    .welcome-info {
+    .welcome_info {
         flex-direction: column;
         align-items: center;
     }
@@ -607,24 +607,24 @@
         width: 250px;
     }
 
-    .about-row {
+    .about_row {
         flex-direction: column;
         text-align: center;
     }
 
-    .vert-line {
+    .vert_line {
         display: none;
     }
 
-    .about-card {
+    .about_card {
         margin-left: 0px;
     }
 
-    .col-book-info h4 {
+    .col_book_info h4 {
         width: auto;
     }
 
-    .about-box {
+    .about_box {
         width: 250px;
     }
 
@@ -633,16 +633,16 @@
         height: 80;
     }
 
-    .about-box-info {
+    .about_box_info {
         margin-left: 15px;
     }
 
-    .about-box-info h5 {
+    .about_box_info h5 {
         font-size: 14px;
         margin-top: 0;
     }
 
-    .about-box-info h6 {
+    .about_box_info h6 {
         font-size: 12px;
     }
 
