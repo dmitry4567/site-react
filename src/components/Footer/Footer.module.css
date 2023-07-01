@@ -1,0 +1,100 @@
+.compaines {
+    width: 100%;
+    height: 637px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line_compaines {
+    width: 50px;
+    height: 0px;
+    border-bottom: 3px solid #FFCA42;
+    background-color: white;
+    margin-top: 23px;
+}
+
+.compaines h1 {
+    margin-top: 126px;
+    color: #1B3764;
+    text-align: center;
+    font-size: 42px;
+    line-height: 50.4px;
+    text-transform: capitalize;
+}
+
+.row_companies {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.compaines_card {
+    width: 313px;
+    text-align: center;
+}
+
+.compaines_card h2 {
+    margin-top: 19px;
+    color: #1B3764;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.compaines_card h3 {
+    margin-top: 19px;
+    color: #969AA0;
+    text-align: center;
+    font-size: 19px;
+    line-height: 28.5px;
+}
+
+@media (max-width: 1330px) {
+    .compaines_img {
+        width: 50%;
+    }
+
+    .compaines_card {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .compaines_card h2 {
+        font-size: 16px;
+    }
+
+    .row_companies {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .compaines_card {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row_companies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .compaines_card {
+        margin-top: 40px;
+    }
+    .compaines h1 {
+        font-size: 30px ;
+    }
+
+    .compaines_card h3 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+}
