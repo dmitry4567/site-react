@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
 import book_img from '../../assets/book.png';
+import img_card_1 from '../../assets/b1.png';
+import img_card_2 from '../../assets/b2.png';
 
 import styles from './Main.module.css';
 
 class Main extends Component {
   render() {
     return (
-      <div className={styles.welcome}>
+      <><div className={styles.welcome}>
         <div className={styles.welcome_text}>
           <div className={styles.line_text}>
             <div className={styles.line}></div>
@@ -50,6 +52,41 @@ class Main extends Component {
         </div>
         <img class={styles.book_img} src={book_img} alt="book-img" />
       </div>
+        <div className={styles.author}>
+          <h1>The Author’s Book</h1>
+          <div className={styles.line_author}></div>
+          <div className={styles.author_books}>
+            <div className={styles.book_card}>
+              <img src={img_card_1} className={styles.img_card} alt="img-card" />
+              <div className={styles.col_book_info}>
+                <h2>Atomic One’s</h2>
+                <h3>$ 13.84 USD
+                </h3>
+                <h4>As the book contains theoretical content as well as solved questions.</h4>
+                <div className={styles.type_book}>
+                  <div className={styles.circle}></div>
+                  <p>Printed Book</p>
+                </div>
+                <div className={styles.btn3}>Order now</div>
+              </div>
+            </div>
+            <div className={styles.book_card}>
+            <img src={img_card_2} className={styles.img_card} alt="img-card" />
+                <div className={styles.col_book_info}>
+                  <h2>The Dark Light</h2>
+                  <h3>$ 86.11 USD
+                  </h3>
+                  <h4>As the book contains theoretical content as well as solved questions.</h4>
+                  <div className={styles.type_book}>
+                    <div className={styles.circle}></div>
+                    <p>Printed Book</p>
+                  </div>
+                  <div className={styles.btn3}>Order now</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
   }
 }
