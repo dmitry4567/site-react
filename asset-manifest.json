@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-react/static/css/main.bc65f5b8.css",
-    "main.js": "/site-react/static/js/main.e556fea1.js",
+    "main.css": "/site-react/static/css/main.4501193b.css",
+    "main.js": "/site-react/static/js/main.24ba67f2.js",
     "static/media/author.png": "/site-react/static/media/author.da2ff70882f2e45c7287.png",
     "static/media/b1.png": "/site-react/static/media/b1.d8dc4dd97ab0491fbdda.png",
     "static/media/book.png": "/site-react/static/media/book.877bec90fd211dc07eee.png",
@@ -11,11 +11,11 @@
     "index.html": "/site-react/index.html",
     "static/media/close.svg": "/site-react/static/media/close.f9e1fd884e38ced99e021f1ac47b347d.svg",
     "static/media/menu.svg": "/site-react/static/media/menu.62156aa1f3f8ed08b3c42f31823cbef1.svg",
-    "main.bc65f5b8.css.map": "/site-react/static/css/main.bc65f5b8.css.map",
-    "main.e556fea1.js.map": "/site-react/static/js/main.e556fea1.js.map"
+    "main.4501193b.css.map": "/site-react/static/css/main.4501193b.css.map",
+    "main.24ba67f2.js.map": "/site-react/static/js/main.24ba67f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc65f5b8.css",
-    "static/js/main.e556fea1.js"
+    "static/css/main.4501193b.css",
+    "static/js/main.24ba67f2.js"
   ]
 }
