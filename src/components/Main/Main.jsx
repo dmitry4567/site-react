@@ -11,49 +11,50 @@ import styles from './Main.module.css';
 class Main extends Component {
   render() {
     return (
-      <><div className={styles.welcome}>
-        <div className={styles.welcome_text}>
-          <div className={styles.line_text}>
-            <div className={styles.line}></div>
-            <p>Welcome to Pages!!!</p>
-          </div>
-          <h1>Your Books From</h1>
-          <h1>The Best Writer.</h1>
-          <h2 id={styles.text}>We believe that reading books are essential to a healthy culture.</h2>
-          <h2>They’re where authors can connect with readers.</h2>
-          <div className={styles.buttons}>
-            <a className={styles.btn2}>Order Today</a>
-            <div className={styles.col_read_free}>
-              <p>Read Free demo</p>
-              <div className={styles.line_read_free}></div>
+      <>
+        <div className={styles.welcome}>
+          <div className={styles.welcome_text}>
+            <div className={styles.line_text}>
+              <div className={styles.line}></div>
+              <p>Welcome to Pages!!!</p>
             </div>
-          </div>
-          <div className={styles.welcome_info}>
-            <div className={styles.card}>
-              <div className={styles.circle}></div>
-              <div className={styles.welcome_info_card}>
-                <h1>Pages:</h1>
-                <h2>250 pages</h2>
+            <h1>Your Books From</h1>
+            <h1>The Best Writer.</h1>
+            <h2 id={styles.text}>We believe that reading books are essential to a healthy culture.</h2>
+            <h2>They’re where authors can connect with readers.</h2>
+            <div className={styles.buttons}>
+              <a className={styles.btn2}>Order Today</a>
+              <div className={styles.col_read_free}>
+                <p>Read Free demo</p>
+                <div className={styles.line_read_free}></div>
               </div>
             </div>
-            <div className={styles.card}>
-              <div className={styles.circle}></div>
-              <div className={styles.welcome_info_card}>
-                <h1>Length:</h1>
-                <h2>10 hours</h2>
+            <div className={styles.welcome_info}>
+              <div className={styles.card}>
+                <div className={styles.circle}></div>
+                <div className={styles.welcome_info_card}>
+                  <h1>Pages:</h1>
+                  <h2>250 pages</h2>
+                </div>
               </div>
-            </div>
-            <div className={styles.card}>
-              <div className={styles.circle}></div>
-              <div className={styles.welcome_info_card}>
-                <h1>Rating:</h1>
-                <h2>4/5</h2>
+              <div className={styles.card}>
+                <div className={styles.circle}></div>
+                <div className={styles.welcome_info_card}>
+                  <h1>Length:</h1>
+                  <h2>10 hours</h2>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.circle}></div>
+                <div className={styles.welcome_info_card}>
+                  <h1>Rating:</h1>
+                  <h2>4/5</h2>
+                </div>
               </div>
             </div>
           </div>
+          <img class={styles.book_img} src={book_img} alt="book-img" />
         </div>
-        <img class={styles.book_img} src={book_img} alt="book-img" />
-      </div>
         <div className={styles.author}>
           <h1>The Author’s Book</h1>
           <div className={styles.line_author}></div>
@@ -90,8 +91,8 @@ class Main extends Component {
         </div>
         <div className={styles.about_author}>
           <div className={styles.image_author}>
-          <img src={author} className={styles.image} alt="author" />
-              <div className={styles.img_border}></div>
+            <img src={author} className={styles.image} alt="author" />
+            <div className={styles.img_border}></div>
           </div>
           <div className={styles.about_author_info}>
             <h1>About the Author</h1>
@@ -123,17 +124,17 @@ class Main extends Component {
             </div>
             <div className={styles.box}>
               <div className={styles.about_box}>
-              <img src={qr} className={styles.qr} alt="qr" />
-                  <div className={styles.about_box_info}>
-                    <h5>John Abraham , Ph.d</h5>
-                    <h6>Mail: johnabraham@gmail.com</h6>
-                    <h6>Phone: (+2) 123 545 9000</h6>
-                  </div>
+                <img src={qr} className={styles.qr} alt="qr" />
+                <div className={styles.about_box_info}>
+                  <h5>John Abraham , Ph.d</h5>
+                  <h6>Mail: johnabraham@gmail.com</h6>
+                  <h6>Phone: (+2) 123 545 9000</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
+        
       </>
     );
   }
